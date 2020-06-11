@@ -4,7 +4,8 @@
 
 'use strict'
 
-const nodeMajor = Number(process.versions.node.split('.')[0])
+//const nodeMajor = Number(process.versions.node.split('.')[0])
+const nodeMajor = 14;
 
 const { EventEmitter } = require('events')
 const { URL } = require('url')
